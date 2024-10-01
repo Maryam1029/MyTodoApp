@@ -3,6 +3,7 @@ import java.util.Date;
 public class TodoList {
     // Class to represent a single Todo item with a description and a due date
     class TodoItem {
+        String inAddDate = "in add-date branch";
         String todo;
         String description;
         Date dueDate;
